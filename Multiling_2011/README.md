@@ -1,0 +1,1 @@
+Delete this file and add the document sets of the English version of MultiLing 2011 Pilot to this folder.
