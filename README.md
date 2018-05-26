@@ -5,7 +5,7 @@ This project is implemented by Asma Bader Al-Saleh. It creates a multi-document 
 External sources: (others not mentioned below were all coded by me)
 - Stanford CoreNLP version 3.9.1 library (downloaded from https://stanfordnlp.github.io/CoreNLP/).
 - Porter Stemming Algorithm [in Stemmer class] (downloaded from https://tartarus.org/martin/PorterStemmer/).
--Khoja’s stemmer (http://zeus.cs.pacificu.edu/shereen/research.htm)
+- Khoja’s stemmer (http://zeus.cs.pacificu.edu/shereen/research.htm)
 - calculate_LCS function in Utility class (the code is from http://rosettacode.org/wiki/Longest_common_subsequence#Dynamic_Programming_2).
 - An English stop word list from the SMART information retrieval system is used (http://jmlr.csail.mit.edu/papers/volume5/lewis04a/a11-smart-stop-list/english.stop).
 - An Arabic stop word list provided in (Ibrahim Abu El-Khair. 2006. Effects of stop words elimination for arabic information retrieval: A comparative study. International Journal of Computing & Information Sciences, 4(3):119 – 133.)
