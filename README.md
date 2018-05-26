@@ -36,4 +36,7 @@ java -Dfile.encoding=UTF8 -jar MDS.jar {1|2}
 E.g. java -Dfile.encoding=UTF8 -jar MDS.jar 1
 
 
+Note: The executable jar file works only with version 3.9.1 (latest) of CoreNLP libraries. In the case of not finding the specified version, use the java files in "src" folder.
+
+
 
