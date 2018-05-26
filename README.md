@@ -13,9 +13,7 @@ External sources: (others not mentioned below were all coded by me)
 
 Inputs: the corpus 
 1: for the English language version of the 2011 MultiLing Pilot 
-
 or
- 
 2: for the Arabic language version of the 2011 MultiLing Pilot. 
 
 
@@ -26,8 +24,30 @@ The output is the summaries of the corpus's docsets (one sentence per line). Sum
  
 To run the code, please follow these main steps (summaries will be found in 'output' folder.):
 1) Download the corpus content (docsets) and save it in its folder; "Multiling_2011" for English version and "Multiling_2011_Arabic" for Arabic version. Remove the Readme file in thses two folders.
-2) Download the CoreNLP jar files and save them into 'MDS_lib' folder. (CoreNLP 3.9.1, model jar version 3.9.1 for English, model jar version 3.9.1 for English(KBP, model jar version 3.9.1  for Arabic). Delete the Readme file in this folder.
+
+2) Download the CoreNLP jar files and save them into 'MDS_lib' folder (CoreNLP 3.9.1, model jar version 3.9.1 for English, model jar version 3.9.1 for English(KBP, model jar version 3.9.1  for Arabic) and delete the Readme file in this folder. Namely, these library are:
+ejml-0.23.jar
+javax.json.jar
+javax.json-api-1.0-sources.jar
+joda-time.jar
+joda-time-2.9-sources.jar
+jollyday.jar
+jollyday-0.4.9-sources.jar
+protobuf.jar
+slf4j-api.jar
+slf4j-simple.jar
+stanford-arabic-corenlp-2018-02-27-models.jar
+stanford-corenlp-3.9.1.jar
+stanford-corenlp-3.9.1-javadoc.jar
+stanford-corenlp-3.9.1-models.jar
+stanford-corenlp-3.9.1-sources.jar
+stanford-english-corenlp-2018-02-27-models.jar
+stanford-english-kbp-corenlp-2018-02-27-models.jar
+xom.jar
+xom-1.2.10-src.jar
+
 3) Create two folders under "output" folder and name them: "output_multiling2011" and "output_multiling2011_Arabic".
+
 4) Excute the program, write the following command in the Command Prompt window: 
 
 java -Dfile.encoding=UTF8 -jar MDS.jar {1|2}
