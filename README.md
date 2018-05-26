@@ -24,7 +24,9 @@ To run the code, please follow these main steps (summaries will be found in 'out
 2) Download the CoreNLP jar files and save them into 'MDS_lib' folder. (CoreNLP 3.9.1, model jar version 3.9.1 for English, model jar version 3.9.1 for English(KBP, model jar version 3.9.1  for Arabic). Delete the Readme file in this folder.
 3) Create two folders under "output" folder and name them: "output_multiling2011" and "output_multiling2011_Arabic".
 4) Excute the program, write the following command in the Command Prompt window: 
+
 java -Dfile.encoding=UTF8 -jar MDS.jar [corpus_no]
+
 E.g. java -Dfile.encoding=UTF8 -jar MDS.jar 1
 
 
