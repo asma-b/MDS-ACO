@@ -20,9 +20,10 @@ External sources: (others not mentioned below were all coded by me)
 	
 
 To run the code, please follow these main steps (summaries will be found in 'output' folder.):
-1) Download the corpus content (docsets) and save it in its folder; "Multiling_2011" for English version and "Multiling_2011_Arabic" for Arabic version.
+1) Download the corpus content (docsets) and save it in its folder; "Multiling_2011" for English version and "Multiling_2011_Arabic" for Arabic version. Remove the Readme file in thses two folders.
 2) Download the CoreNLP jar files and save them into 'MDS_lib' folder. (CoreNLP 3.9.1, model jar version 3.9.1 for English, model jar version 3.9.1 for English(KBP, model jar version 3.9.1  for Arabic).
-3) Excute the program, write the following command in the Command Prompt window: 
+3) Create two folders under "output" folder and name them: "output_multiling2011" and "output_multiling2011_Arabic".
+4) Excute the program, write the following command in the Command Prompt window: 
 java -Dfile.encoding=UTF8 -jar MDS.jar [corpus_no]
 E.g. java -Dfile.encoding=UTF8 -jar MDS.jar 1
 
